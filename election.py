@@ -129,7 +129,7 @@ def account_screen():
                      font=("Copperplate Gothic Bold", 45), fg="white")
     election.place(relx=0.5, rely=0.25, anchor="center")
 
-    image1 = Image.open("logo.jpg")
+    image1 = Image.open(house_name.lower() +".jpg")
     image1 = image1.resize((150, 150))
     test = ImageTk.PhotoImage(image1)
 
